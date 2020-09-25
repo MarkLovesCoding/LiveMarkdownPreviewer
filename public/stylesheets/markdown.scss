@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Oxanium|Righteous&display=swap');
+@import "./brand.scss";
+@import "./madewith.scss";
+
+body {
+  background: darkslategrey;
+  background: linear-gradient(225deg, rgba(0,20,36,1) 0%, rgba(64,61,61,1) 0%, rgba(45,48,48,1) 9%, rgba(16,16,17,1) 100%);
+  position: relative;
+  margin:0;
+}
+
+header {
+  // font-size:
+  width: 100%;
+  height: auto;
+  color: white;
+  font-size: 2.2em;
+  padding: 25px;
+  width: 17vw;
+  min-width: 150px;
+  margin: 40px auto;
+  text-align: center;
+  line-height: 1.5em;
+  font-family:"Righteous"
+}
+
+// .made-with{
+//   font-size:0.8em;
+//   position:absolute;
+//   bottom:0px;
+//   left:20px;
+//   color:white;
+//   ul{
+//     list-style:none;
+//     display:flex;
+//     flex-direction:row;
+//     padding:2px;
+//     font-size:2em;
+//     li{
+//       padding:2px;
+//     }
+//   }
+// }
+#markdown {
+  display: flex;
+  flex-flow: space-between;
+  flex-direction: row;
+  justify-content: center;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  font-family:Righteous
+
+}
+.section span {
+  color: white;
+  font-size: 1.8em;
+  align-self: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#preview {
+  font-size: 1.1em;
+  font-family: Oxanium;
+  width: 35vw;
+  min-height: 70vh;
+  background: #fafaf0;
+  box-shadow: inset 0px -0.5px 2px black, 0px 10px 50px -5px black;
+  color: black;
+  margin: 0px 0px 50px 20px;
+  padding: 15px;
+  z-index: 5;
+  overflow: scroll-y;
+  position: relative;
+}
+
+#editor {
+  position: relative;
+  box-sizing: content-box;
+  width: 40vw;
+  min-height: 70vh;
+  background: black;
+  box-shadow: inset 0px -1px 2px rgba(200, 255, 100, 0.5), 0px 10px 50px -5px black;
+  resize: vertical;
+  color: lightgreen;
+  padding: 15px 15px;
+  margin: 0px 0px 50px 0px;
+  overflow: scroll-y;
+}
+#editor:hover {
+  outline: 3px solid lightblue;
+}
+
+#editor::before {
+  content: "";
+}
+
+#preview:hover {
+  outline: 3px solid lightblue;
+}
+
+#editor:focus {
+  outline: 5px solid lightblue;
+}
+
+@media (max-width: 700px) {
+  #markdown {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #preview {
+    margin: 20px 0px 70px 0px;
+  }
+
+  #editor {
+    resize: vertical;
+    width: 90vw;
+  }
+
+  #preview {
+    width: 90vw;
+  }
+}
