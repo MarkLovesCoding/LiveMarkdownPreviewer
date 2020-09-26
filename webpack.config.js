@@ -15,8 +15,8 @@ module.exports = {
     chunkFilename:'[name].js',
     filename: '[name].js'
   },
+  
   module: {
-
     rules: [
       {
         test: /\.(js|jsx)$/,
@@ -42,9 +42,7 @@ module.exports = {
                  return path.relative(path.dirname(resourcePath), context) + '/';
               },
             }},
-            // 'style-loader',
             'css-loader',
-            // 'postcss-loader',
             'sass-loader'
           ],
       },
@@ -57,8 +55,6 @@ module.exports = {
       minify:false
     }),
     new MiniCssExtractPlugin({
-      // Options similar to the same options in webpackOptions.output
-      // both options are optional
       filename: '[name].css',
       chunkFilename: '[id].css',
     })
