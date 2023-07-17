@@ -136,17 +136,17 @@ I'd like to provide credit to the online educational community that paved the wa
 [license-url]: https://github.com/MarkLovesCoding/LiveMarkdownPreviewer/blob/master/LICENSE.txt
 [product-screenshot]: public/assets/markdown.png
 [Online Version]: https://www.markhalstead.dev/markdown
-[html-shield]: https://img.shields.io/badge/HTML-4A4A55?style=for-the-badge&logo=html5&logoColor=FF3E00
+[html-shield]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [html-url]: https://html.com/
 [scss-shield]: https://img.shields.io/badge/SCSS-FF2D50?style=for-the-badge&logo=sass&logoColor=white
 [scss-url]: https://sass-lang.com/documentation/syntax/
-[javascript-shield]: https://img.shields.io/badge/Javascript-363D7C?style=for-the-badge&logo=javascript&logoColor=white
+[javascript-shield]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
 [javascript-url]: https://javascript.com
-[React-shield]: https://img.shields.io/badge/react.js-563D7C?style=for-the-badge&logo=react&logoColor=white
+[React-shield]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
 [React-url]: https://react.dev 
-[Node-shield]: https://img.shields.io/badge/node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=white
+[Node-shield]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
 [Node-url]: https://nodejs.org/
-[Express-shield]: https://img.shields.io/badge/express-53232A?style=for-the-badge&logo=express&logoColor=61DAFB
+[Express-shield]: https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB
 [Express-url]: https://expressjs.com/
-[Webpack-shield]: https://img.shields.io/badge/webpack-4A4A55?style=for-the-badge&logo=webpack&logoColor=FFF00
+[Webpack-shield]: https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black
 [Webpack-url]: https://webpack.js.org/
